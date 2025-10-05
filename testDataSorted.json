@@ -1,0 +1,100 @@
+{
+  "data": [
+    {
+      "apiVersion": 1,
+      "commands": {},
+      "feature": "gateway.devices",
+      "gatewayId": "################",
+      "isEnabled": true,
+      "isReady": true,
+      "properties": {
+        "devices": {
+          "type": "DeviceList",
+          "value": [
+            {
+              "fingerprint": "tcu:0068;33.326.2424.109;68.513.2447.4",
+              "id": "gateway",
+              "modelId": "E3_TCU68",
+              "modelVersion": "MHHtW-u0QCOqxhujfrpgp1OEaoE",
+              "name": "E3_TCU68",
+              "roles": [
+                "capability:hems",
+                "capability:src",
+                "capability:zigbeeCoordinator",
+                "type:E3",
+                "type:gateway;TCU300"
+              ],
+              "status": "online",
+              "type": "tcu"
+            },
+            {
+              "fingerprint": "src:0068;33.326.2401.59;46.505.2446.4",
+              "id": "RoomControl-1",
+              "modelId": "E3_RoomControl_One_05",
+              "modelVersion": "onUqEPBW0CiFLwoKS8O57Dosm84",
+              "name": "E3_RoomControl_One_05",
+              "roles": [
+                "capability:monetization;FTDC",
+                "capability:monetization;OWD",
+                "capability:src;FTDC",
+                "capability:src;OWD",
+                "capability:src;holiday",
+                "capability:zigbeeCoordinator",
+                "type:E3",
+                "type:virtual;smartRoomControl"
+              ],
+              "status": "online",
+              "type": "roomControl"
+            },
+            {
+              "fingerprint": "ecu;7672193502884121;20.514.2440.272;2.612.101.4",
+              "id": "0",
+              "modelId": "E3_Vitocal",
+              "modelVersion": "jLf32CNYMyXC22ux3OGItMZwsng",
+              "name": "E3_Vitocal",
+              "roles": [
+                "capability:backup;0020_HPMU_VC",
+                "capability:consumptionReport;electric",
+                "capability:monetization;AdvancedReport",
+                "capability:monetization;DhwSavingsCalculator",
+                "capability:productionReport;thermal",
+                "capability:service;AdvancedReport",
+                "capability:service;DhwSavingsCalculator",
+                "type:E3",
+                "type:brand;Viessmann",
+                "type:businessDomain;heating",
+                "type:cooling;integrated",
+                "type:dhw;integrated",
+                "type:gatewayConfiguration",
+                "type:heating;integrated",
+                "type:heatpump",
+                "type:product;Vitocal_150A"
+              ],
+              "status": "online",
+              "type": "heating"
+            }
+          ]
+        }
+      },
+      "timestamp": "2025-09-23T11:31:13.616Z",
+      "uri": "https://api.viessmann-climatesolutions.com/iot/v2/features/installations/#######/gateways/################/features/gateway.devices"
+    },
+    {
+      "apiVersion": 1,
+      "commands": {},
+      "feature": "gateway.wifi",
+      "gatewayId": "################",
+      "isEnabled": true,
+      "isReady": true,
+      "properties": {
+        "strength": {
+          "type": "number",
+          "unit": "",
+          "value": -89
+        }
+      },
+      "timestamp": "2025-09-23T11:31:09.091Z",
+      "uri": "https://api.viessmann-climatesolutions.com/iot/v2/features/installations/#######/gateways/################/features/gateway.wifi"
+    }
+  ]
+}
